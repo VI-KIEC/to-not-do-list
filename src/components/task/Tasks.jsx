@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Tasks = () => {
+const Tasks = ({ inputText, taskList }) => {
   return (
     <div>
-      
+      {taskList.map((task) => (
+        <div>{task.text}</div>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Tasks
+export default Tasks;
