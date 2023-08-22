@@ -5,7 +5,7 @@ import TaskAddInput from "./input/TaskAddInput";
 import Tasks from "./Tasks";
 import TaskCardTitle from "./TaskCardTitle";
 
-const TaskCard = () => {
+const TaskCard = ({ taskCardsList, setTaskCardsList, taskCard }) => {
   const [inputText, setInputText] = useState("");
   const [taskList, setTaskList] = useState([]);
 
@@ -13,7 +13,11 @@ const TaskCard = () => {
     <div className="taskCard">
       <div className="taskCardTitleAndTaskCardDeleteButtonArea">
         <TaskCardTitle />
-        <TaskCardDeleteButton />
+        <TaskCardDeleteButton
+          taskCardsList={taskCardsList}
+          setTaskCardsList={setTaskCardsList}
+          taskCard={taskCard}
+        />
       </div>
       <TaskAddInput
         inputText={inputText}

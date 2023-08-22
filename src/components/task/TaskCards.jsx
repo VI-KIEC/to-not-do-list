@@ -9,8 +9,13 @@ const TaskCards = () => {
   ]);
   return (
     <div className="taskCardsArea">
-      {taskCardsList.map((taskCardList) => (
-        <TaskCard key={taskCardList.id} />
+      {taskCardsList.map((taskCard) => (
+        <TaskCard
+          setTaskCardsList={setTaskCardsList}
+          taskCardsList={taskCardsList}
+          taskCard={taskCard}
+          key={taskCard.id}
+        />
       ))}
       <AddTaskCardButton
         taskCardsList={taskCardsList}
