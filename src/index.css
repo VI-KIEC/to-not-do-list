@@ -1,5 +1,9 @@
+* {
+  font-family: "Kiwi Maru", serif;
+}
+
 .app {
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
 }
 
 .upperTaskCardArea {
@@ -13,19 +17,22 @@
 .taskAddInput {
   width: 100%;
   font-size: 1.3rem;
-  padding: 10px 15px1;
+  padding: 10px 15px;
   border-radius: 3px;
-  border: none;
+  border: solid 1px rgb(75, 75, 75);
   outline: none;
   height: 40px;
+  box-sizing: border-box;
 }
 
 .taskCard {
-  width: 250px;
-  padding: 10px 25px;
-  margin: 10px 1%;
-  background-color: cadetblue;
-  border-radius: 5px;
+  width: 45vw;
+  padding: 45px 65px;
+  margin: 0 0;
+  background-color: rgb(255, 255, 255);
+  min-height: 47vh;
+  max-height: 47vh;
+  box-sizing: border-box;
 }
 
 .taskCardTitle {
@@ -34,6 +41,7 @@
   font-size: 1.1rem;
   border-radius: 3px;
   font-weight: bold;
+  text-align: center;
 }
 
 .taskBox {
@@ -45,7 +53,7 @@
   background-color: white;
   border-radius: 5px;
   box-shadow: 1px 1px 1px 1px rgb(75, 75, 75);
-  height: 15px;
+  height: 5px;
 }
 
 .taskText {
@@ -57,3 +65,66 @@
   border: none;
   cursor: pointer;
 }
+
+.taskCard1 {
+  border-right: 1.5px dotted black;
+  border-bottom: 1.5px dotted black;
+}
+
+.taskCard2 {
+  border-left: 1.5px dotted transparent;
+  border-bottom: 1.5px dotted black;
+}
+
+.taskCard3 {
+  border-right: 1.5px dotted black;
+  border-top: 1.5px dotted transparent;
+}
+
+.taskCard4 {
+  border-top: 1.5px dotted transparent;
+  border-left: 1.5px dotted transparent;
+}
+
+.leftBar1 {
+  width: 37px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+}
+.leftBar2 {
+  width: 37px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.upperBar {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  width: 45vw;
+  padding: 0px 0px;
+  margin: 0 0;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+.upperBarArea {
+  display: flex;
+  margin-left: 37px;
+}
+
+.cardTaskArea {
+  overflow-y: auto;
+  max-height: 30vh;
+  padding: 0 5px 5px 0;
+}
+
+/* .cardTaskArea::-webkit-scrollbar {
+
+} */

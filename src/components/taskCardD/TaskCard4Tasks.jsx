@@ -2,7 +2,7 @@ import React from "react";
 import Card4Task from "./Card4Task";
 const TaskCard4Tasks = ({ taskList, setTaskList }) => {
   return (
-    <div>
+    <div className="cardTaskArea">
       {taskList.map((task) => (
         <div>
           <Card4Task

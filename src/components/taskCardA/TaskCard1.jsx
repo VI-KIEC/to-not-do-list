@@ -7,7 +7,7 @@ const TaskCard1 = () => {
   const [inputText, setInputText] = useState("");
   const [taskList, setTaskList] = useState([]);
   return (
-    <div className="taskCard">
+    <div className="taskCard taskCard1">
       <TaskCard1Title />
       <TaskCard1AddInput
         inputText={inputText}

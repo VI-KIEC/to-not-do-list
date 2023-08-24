@@ -23,7 +23,7 @@ const TaskCard2AddInput = ({
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="add a task"
+          placeholder="タスクを追加"
           className="taskAddInput"
           onChange={handleChange}
           value={inputText}
