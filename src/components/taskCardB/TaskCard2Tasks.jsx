@@ -1,7 +1,19 @@
 import React from "react";
-
-const TaskCard2Tasks = () => {
-  return <div></div>;
+import Card2Task from "./Card2Task";
+const TaskCard2Tasks = ({ taskList, setTaskList }) => {
+  return (
+    <div>
+      {taskList.map((task) => (
+        <div>
+          <Card2Task
+            task={task}
+            taskList={taskList}
+            setTaskList={setTaskList}
+          />
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default TaskCard2Tasks;
