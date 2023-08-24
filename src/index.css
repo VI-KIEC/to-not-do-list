@@ -17,6 +17,7 @@
   border-radius: 3px;
   border: none;
   outline: none;
+  height: 40px;
 }
 
 .taskCard {
@@ -25,4 +26,34 @@
   margin: 10px 1%;
   background-color: cadetblue;
   border-radius: 5px;
+}
+
+.taskCardTitle {
+  margin-bottom: 10px;
+  width: 90%;
+  font-size: 1.1rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.taskBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(75, 75, 75);
+  height: 15px;
+}
+
+.taskText {
+  margin-left: 12px;
+}
+
+.taskTrashButton {
+  margin-right: 9px;
+  border: none;
+  cursor: pointer;
 }

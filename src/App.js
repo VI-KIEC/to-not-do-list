@@ -1,7 +1,7 @@
-import TaskCard1 from "./components/TaskCard1";
-import TaskCard2 from "./components/TaskCard2";
-import TaskCard3 from "./components/TaskCard3";
-import TaskCard4 from "./components/TaskCard4";
+import TaskCard1 from "./components/taskCardA/TaskCard1";
+import TaskCard2 from "./components/taskCardB/TaskCard2";
+import TaskCard3 from "./components/taskCardC/TaskCard3";
+import TaskCard4 from "./components/taskCardD/TaskCard4";
 
 function App() {
   return (
