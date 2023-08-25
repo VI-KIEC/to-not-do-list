@@ -8,6 +8,6 @@
 
 自己啓発の超名著「７つの習慣」の作者 Steven R Covey 　が考えた、「４項目に分けてタスクの優先順位を考える方法」に基づいてつくられています。
 
-[/Users/leviackerman/Desktop/priority-todo/アプリのイメージ.png]
+![/Users/leviackerman/Desktop/priority-todo/アプリのイメージ.png]
 
-書籍：７つの習慣　 → [https://www.amazon.co.jp/完訳-7 つの習慣-人格主義の回復-スティーブン・R・コヴィー-ebook/dp/B00KFB5DJC/ref=sr_1_5?__mk_ja_JP=カタカナ&crid=3N1ULYNLSVQ78&keywords=７つの習慣&qid=1692956446&sprefix=7 つの習慣%2Caps%2C243&sr=8-5]
+書籍：７つの習慣　 → [https://www.amazon.co.jp/完訳-7]
