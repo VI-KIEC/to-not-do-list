@@ -1,7 +1,7 @@
 import React from "react";
 
 const TaskCard1Title = () => {
-  return <div className="taskCardTitle">ここはできる限り切り捨てよう！</div>;
+  return <div className="taskCardTitle">減らす！</div>;
 };
 
 export default TaskCard1Title;
