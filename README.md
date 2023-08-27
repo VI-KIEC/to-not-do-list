@@ -1,6 +1,6 @@
 ## 名著「７つの習慣」の優先順位の決め方にもとづいた「やらないことリスト」アプリです。
 
-[URL](to-not-do-list.vercel.app)
+[アプリURL](https://to-not-do-list.vercel.app)
 
 人生に時間は限られていまが、私たちは無意識に無駄遣いしがちです。
 
